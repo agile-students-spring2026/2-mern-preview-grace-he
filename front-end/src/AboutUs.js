@@ -14,9 +14,9 @@ function AboutUs () {
     if (!data) return <div>Loading...</div>
 
     return (
-        <div>
+        <div className = "aboutus">
             <h1>{data.title}</h1>
-            <p>{data.description}</p>
+            <p className='description'>{data.description}</p>
             <img
                 src={`http://localhost:5002${data.imageUrl}`}
                 alt="headshot"
