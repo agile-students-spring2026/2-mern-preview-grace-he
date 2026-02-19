@@ -1,4 +1,17 @@
+.aboutus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .gracehe {
     width: 200px;
     padding-top: 1rem;
+}
+
+.description {
+    width: 60%;
+    padding-top: 0.5rem;
+    margin: 0 auto;
+    text-align: center;
 }
